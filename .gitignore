@@ -6,6 +6,7 @@ __pycache__/
 # MS docs
 *.docx
 *.xlsx
+*.DS_Store
 
 # C extensions
 *.so
