@@ -53,3 +53,5 @@ Click the icon below to start the official Google Colab tutorial:
 * Be patient. Rome is not built in a day. 
 * Do python exercises in this repository and watch my videos. 
 * Taking serious computer science classes. Considering taking [UCB CS61A](https://cs61a.org/) for general programming, [UCB CS61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/) for data structure, [UCB CS61C](https://cs61c.org/su20/) for computer architecture. 
+
+![Bugs](figures/meme.jpg "Bugs")
