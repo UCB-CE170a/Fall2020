@@ -50,6 +50,7 @@ Click the icon below to start the official Google Colab tutorial:
 ## Tips
 * [Google](https://www.google.com/) is your best friend. If you are confused, ask Google. 
 * [Stack Overflow](https://stackoverflow.com/) is your second best friend. If you see strange error messages popping up from your program, search on there. 
+* If you can not find answers online, keep calm and post your question on [Stack Overflow](https://stackoverflow.com/). 
 * Be patient. Rome is not built in a day. 
 * Do python exercises in this repository and watch my videos. 
 * Taking serious computer science classes. Considering taking [UCB CS61A](https://cs61a.org/) for general programming, [UCB CS61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/) for data structure, [UCB CS61C](https://cs61c.org/su20/) for computer architecture. 
