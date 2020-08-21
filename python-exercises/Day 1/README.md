@@ -1,7 +1,7 @@
-# UC Berkeley CE170A Python Exercise Day 1
+# Python Exercise Day 1
 
 ## Objectives
-* Familiarize python/colab environment
+* Familiarize colab environment
 * Introduce expressions and basic operators
 * Introduce operator precedence
 * Understand variables and assignment
