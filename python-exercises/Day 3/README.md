@@ -1,4 +1,4 @@
-# Python Exercise Day 2
+# Python Exercise Day 3
 
 ## Objectives
 * Introduce primitive data types (booleans, strings and numerical types)
