@@ -10,6 +10,7 @@ __pycache__/
 
 # C extensions
 *.so
+!traffic_data/liblsp.so
 
 # Distribution / packaging
 .Python
