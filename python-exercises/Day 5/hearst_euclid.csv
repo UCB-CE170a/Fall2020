@@ -1,4 +1,4 @@
-start_igraph,end_igraph,road_name,direction
+start_node_id,end_node_id,road_name,direction
 344,345,Hearst_Ave,Eastward
 345,346,Hearst_Ave,Eastward
 346,347,Hearst_Ave,Eastward
