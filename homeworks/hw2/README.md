@@ -21,20 +21,21 @@ In this assignment, you need to run the code with [berkeley_edges.csv](https://r
 ## Submission
 Your submissions consist of two parts:
 1. September 30th, 10:00 am PDT: 
-    * A CSV file containing your chosen contraflow links, named `contraflow_edges_[your_name].csv`. Template provided in 
+    * A CSV file, which is based on [berkeley_edges.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/north_berkeley_edges_clean.csv) but with modified `lanes`, `capacity` and `fft` to reflect your contraflow strategy, named `contraflow_edges_[your_name].csv`.
     * A CSV file containing the numbers of arrived vehicles at each time step, named `arrival_counts_[your_name].csv`. Template provided in 
-    ** Note 1: do not make other changes to the simulation except from the `capacity` and `fft` in the `berkeley_edges.csv` file.
-    ** Note 2: GSI will validate your arrival count results based on the contraflow links that you provide. We will show the most effective contraflow operations during the class on October 1st.
+    ** Note 1: do not make other changes to the simulation except from the `lanes`, `capacity` and `fft` in the `berkeley_edges.csv` file.
+    ** Note 2: GSI will validate your arrival count results based on the `contraflow_edges_[your_name].csv` that you provide. We will show the most effective contraflow operations during the class on October 1st.
 2. October 8th, 2:00 pm PDT:
     * Report outlining your findings through the assginment. The report should include at least a map (with legned, scale, north point, title, and background map). You are encouraged, though not required, to change the code to test, e.g., the impact of rerouting or staged evacuation and include the findings in your report.
 
 ## Evaluation
 You will be evaluated by the following criteria:
-1. The `contraflow_edges_[your_name].csv`: the total length of contraflow affected links should be no longer than 3 miles.
+1. The `contraflow_edges_[your_name].csv`: the total length of contraflow affected links (both the increased and reduced side) should be between 2 to 3 miles.
 2. The `contraflow_edges_[your_name].csv`: when you increase the lanes or capacity on one side of the road, the capacity and number of lanes on the opposite side should reduce accordingly.
 3. The `contraflow_edges_[your_name].csv`: when the number of lanes is 0, the free flow time `fft` should be at least `1e8`.
-4. The report.
-5. You will not be evaluated by the effectiveness of your contraflow strategy.
+4. The `contraflow_edges_[your_name].csv`: the code should be able to run with this new input file.
+5. You will **NOT** be evaluated by the single measure effectiveness of your contraflow strategy, so you can be creative in designing your strategy. Hopefully we will be able to review a diverse range of scenarios in the class.
+6. Quality of report.
 
 Click the icon below to start:
 
