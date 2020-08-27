@@ -1,6 +1,6 @@
 # Traffic Inputs Demonstrations
 
-This notebook covers various aspects related to the preparation stage of building a traffic simulation model. Most of the content are not necessary, but could be helpful, for Quizzes 3, 4 and Assignment 2. In addition, if you would like to conduct traffic simulation for another case study in the future, the topics covered here may be useful in helping you to set up the model.
+[This notebook](Traffic_inputs_demo.ipynb) covers various aspects related to the preparation stage of building a traffic simulation model. Most of the content are not necessary, but could be helpful, for Quizzes 3, 4 and Assignment 2. In addition, if you would like to conduct traffic simulation for another case study in the future, the topics covered here may be useful in helping you to set up the model.
 
 ### Topics
 * Network:
