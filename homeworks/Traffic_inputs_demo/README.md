@@ -11,7 +11,7 @@
 
 Click the icon below to start:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/UCB-CE170a/Fall2020/blob/master/python-exercises/Traffic_inputs_demo/Traffic_inputs_demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/UCB-CE170a/Fall2020/blob/master/homeworks/Traffic_inputs_demo/Traffic_inputs_demo.ipynb)
 
 
 
