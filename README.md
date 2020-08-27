@@ -3,7 +3,7 @@ This Github repository holds the Python-related exercises, quizes and assignment
 
 ### Content
 - [python-exercises](python-exercises): six self-paced, beginner python exercise that covers a variety of topics. Video tutorials can be found at this [youtube playlist](https://www.youtube.com/playlist?list=PLdML222URC1ZkKBuvMTNeLfv5LfiPZuyt)
-  * [Day0](python-exercises/Day 0): Introduction of programming and python 
+  * Day0: Introduction of programming and python 
   * Day1: Introduction of python expressions and basic operations
   * Day2: Example on using python to solve a simple physics problem 
   * Day3: Variables, variable types and pitfalls of floating point arithmetic
