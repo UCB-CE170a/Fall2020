@@ -10,7 +10,7 @@ Below is a visualization of the input files and output files. As you can see, ou
 The outcome you will need to obtain is:
 * number of vehicles using each road link
 
-Save the output to a csv file titled `quiz3_yourname.csv` and submit it. The first few lines of your submission may look like the snippet below. However, it is possible that your first few rows are corresponding to different road links.
+Save the output to a csv file titled `quiz3_yourname.csv` and submit it. The first few lines of your submission may look like the table below. However, it is possible that your first few rows are corresponding to different road links.
 
 | link_id | volume |
 |---------|--------|
