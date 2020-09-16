@@ -20,9 +20,6 @@ Save the output to a csv file titled `quiz3_yourname.csv` and submit it. The fir
 |39       |650     |
 |41       |870     |
 
-A visualization of the output traffic volume from the all-or-nothing assignment looks like below.
-![static_route_results](static_route_results.png "Static assignment traffic volume")
-
 
 Click the icon below to start:
 
