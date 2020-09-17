@@ -5,7 +5,7 @@
 In this assignment, you are given a hypothesized Berkeley Hills fire scenario. Your task is to find the suitable locations for contraflow so that more people can get out of the danger in less time. You can evaluate the base scenario (no contraflow) and your contraflow strategies by running a spatial queue-based dynamic traffic assignment code provided to you. All together, we have prepared the following codes/inputs for you: 
 * a code starter of the spatial queue model: follow the link at the bottome of the page to access the code on colab.
 * a base network inputs file: [berkeley_edges.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/berkeley_edges.csv) and [berkeley_nodes.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/berkeley_nodes.csv). These are the original road network without contraflow.
-* od inputs file: [od_10pn.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/od_10pn.csv). This travel demand input file assumes that there are 10 vehicles originating from each node in the evacuation area.
+* od inputs file: [od_20pn.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/od_20pn.csv). This travel demand input file assumes that there are 20 vehicles originating from each node in the evacuation area.
 
 ## Study area
 
@@ -14,7 +14,7 @@ The figure below shows our study area and the road network in North Berkeley. Th
 
 In order to simplify the task, we made the following assumptions:
 - We do not explicitly model fire propagation. The fire direction is given in the figure above only for illustration purpose;
-- The evacuation demand is simply set as 10 vehicles per node in the evacuation zone. A more realistic approach would be to obtain the land use and demographic data for the study area and then associate the demand to the origin nodes.
+- The evacuation demand is simply set as 20 vehicles per node in the evacuation zone. A more realistic approach would be to obtain the land use and demographic data for the study area and then associate the demand to the origin nodes.
 - It is assumed that all evacuees leave at once.
 - Background traffic (i.e., those that are not evacuation trips) are ignored. In reality, background traffic could potentially add more congestion and delays to the evacuation process.
 - The rerouting frequency is set at 3600s, which basically indicates that evacuees do not reroute. You may want to vary this rerouting frequency parameter in the code for your report (but do not change it for the results submitted on September 30th). Based on our experience, enable frequent rerouting is a much more effective strategy than contraflow in evacuation. However, let's not consider this factor when you are testing contraflow locations.
