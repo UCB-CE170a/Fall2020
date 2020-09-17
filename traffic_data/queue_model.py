@@ -236,12 +236,12 @@ class Agent:
         if sp_dist > 10e7:
             sp.clear()
             self.route_igraph = []
-            return 'n_a'
+            return 'no_path_found'
         else:
             sp_route = sp.route(self.destin_nid)
             self.route_igraph = [(self.cls, self.cle)] + [(start_nid, end_nid) for (start_nid, end_nid) in sp_route]
             sp.clear()
-            return 'a'
+            return 'path_found'
 
         
 class Simulation:
@@ -254,6 +254,8 @@ class Simulation:
 
     def create_network(self, nodes_df, links_df):
         ### create graph
+        links_df['capacity'] = links_df['lanes'] * 1900
+        links_df['fft'] = np.where(links_df['lanes']<=0, 1e8, links_df['length']/links_df['maxmph']*2.2369)
         self.g = interface.from_dataframe(links_df, 'start_node_id', 'end_node_id', 'fft')
 
         ### Create link and node objects
@@ -287,7 +289,7 @@ class Simulation:
         od_df['veh_len'] = 8
         od_df['gps_reroute'] = 0
         od_df = od_df.sample(frac=1).reset_index(drop=True) ### randomly shuffle rows
-        print('# trips {}'.format(od_df.shape[0]))
+        # print('# trips {}'.format(od_df.shape[0]))
 
         for row in od_df.itertuples():
             self.all_agents[getattr(row, 'agent_id')] = Agent(getattr(row, 'agent_id'), getattr(row, 'origin_node_id'), getattr(row, 'destin_node_id'), getattr(row, 'dept_time'), getattr(row, 'veh_len'), getattr(row, 'gps_reroute'), simulation=self)
