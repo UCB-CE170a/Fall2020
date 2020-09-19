@@ -21,6 +21,9 @@ Save the output to a csv file titled `quiz3_yourname.csv` and submit it. The fir
 |41       |870     |
 
 
+### submission
+Submit `quiz3_yourname.csv` to bCourse by Sep 24, 2020 at 11:59p.
+
 Click the icon below to start:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/UCB-CE170a/Fall2020/blob/master/homeworks/quiz3/quiz3_student.ipynb)
