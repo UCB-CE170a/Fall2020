@@ -1,16 +1,16 @@
 # Quiz 3
 
-In this quiz, you will be asked to write a simple python program that implements all-or-nothing traffic assignment. You will be provided with:
-* network inputs file: [berkeley_edges.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/berkeley_edges.csv) and [berkeley_nodes.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/berkeley_nodes.csv)
-* od inputs file: [od_10pn.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/od_10pn.csv)
+In this quiz, you will complete and run a simple python program that implements all-or-nothing traffic assignment. You will be provided with:
+* road network input files: [berkeley_edges.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/berkeley_edges.csv) and [berkeley_nodes.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/berkeley_nodes.csv)
+* origin-destination (OD) input file: [od_10pn.csv](https://raw.githubusercontent.com/UCB-CE170a/Fall2020/master/traffic_data/od_10pn.csv), where the trip origins and destinations are all nodes in the road network.
 
-Below is a visualization of the input files and output files. As you can see, our study area covers most of north Berkeley. The orange area is a hypothesized zone that needs to be evacuated. It is assumed that there are 10 trips starting from each road network node in the evacuation zone. The node titled "virtual safe destination" at the bottom left is a virtual supernode set as the destination of all evacuees.
+Below is a visualization of the input files and output files. As you can see, our study area covers mostly the north Berkeley. The orange area is a hypothesized evacuation zone. It is assumed that in our simulated scenario, there are 10 trips starting from each road network node inside the evacuation zone. The node titled "virtual safe destination" at the bottom left is a virtual supernode where all trips end.
 ![berkeley_road_network](berkeley_road_network.png "Berkeley roads")
 
 The outcome you will need to obtain is:
-* number of vehicles using each road link
+* number of vehicles using each road link (traffic volume)
 
-Save the output to a csv file titled `quiz3_yourname.csv` and submit it. The first few lines of your submission may look like the table below. However, it is possible that your first few rows are corresponding to different road links.
+Save the output to a csv file titled `quiz3_yourname.csv` and submit it. The first few lines of your submission may look like the table below. However, it is possible that your first few rows show different road links.
 
 | link_id | volume |
 |---------|--------|
