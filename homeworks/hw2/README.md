@@ -62,10 +62,10 @@ Your submissions consist of two parts:
     * Time stepped arrival counts: `t_stats_base_[yourname].csv` and `t_stats_contraflow_[yourname].csv`. These are output from the simulation code.
     * Any additional text justifying your selection of contraflow locations.
 2. October 8th, 11:59 pm PDT:
-    * Report. The report should include at least the following parts:
+    * Report. Since the report will be due after we have reviewed the contraflow locations and results of the whole class, it is okay to update your contraflow locations in the report compared to what you submitted on September 30th. The report should include at least the following parts:
       * Introduction
       * Model description and assumptions
-      * Results. The result section should include at least a map, potentially more, showing the queueing status at certain time step and scenario (with legned, scale, north arrow, title, and background map). You are encouraged, though not required, to change the code to test, e.g., the impact of rerouting, higher demand or staged evacuation and include the findings in your report.
+      * Description of your strategy and results. The result section should include at least a map, potentially more, showing the queueing status at certain time step and scenario (with legned, scale, north arrow, title, and background map). You are encouraged, though not required, to change the code to test, e.g., the impact of rerouting, higher demand or staged evacuation and include the findings in your report.
       * Discussion. Go to Google Street View to visually examine the conditions of your chosen contraflow locations. Identify any risks or practical challenges involved, such as the steepness of the road, the presence of street parking, the vegetation, etc. Other discussions may include: why the efficiency of my chosen strategy is not good or good? Is it because of the simulation method (e.g., rerouting frequency is not realistic, travel demand is not realistic, ...) or because of the strategy?
       * Summary
 
