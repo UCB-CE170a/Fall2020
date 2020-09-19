@@ -22,7 +22,7 @@ Save the output to a csv file titled `quiz3_yourname.csv` and submit it. The fir
 
 
 ### submission
-Submit `quiz3_yourname.csv` to bCourse by Sep 24, 2020 at 11:59p.
+Submit `quiz3_yourname.csv` to bCourse by Sep 24, 2020 at 11:59pm.
 
 Click the icon below to start:
 
